@@ -62,6 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(response.isSuccessful()){
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
+                    //tes
                 }else{
                     Log.d("RETRO", "ON FAIL : " + response.message());
                 }
